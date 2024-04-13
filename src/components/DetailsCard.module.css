@@ -1,0 +1,43 @@
+.containerIcon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.aPrivateRoom,
+.dedicatedWorkspace {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.dedicatedWorkspace {
+  line-height: 150%;
+  font-weight: 600;
+}
+.aPrivateRoom {
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+}
+.dedicatedWorkspaceParent,
+.detailscard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.detailscard {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 450px) {
+  .detailscard {
+    flex-wrap: wrap;
+  }
+}

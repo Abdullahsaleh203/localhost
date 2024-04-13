@@ -1,0 +1,104 @@
+.orSignUp {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 26px;
+}
+.imageIcon {
+  width: 40px;
+  height: 40.5px;
+  position: relative;
+  object-fit: cover;
+}
+.text {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.24px;
+}
+.socialLogin {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-smi) var(--padding-6xl)
+    var(--padding-sm-1);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 125px;
+}
+.imageIcon1 {
+  width: 40px;
+  height: 40.5px;
+  position: relative;
+  object-fit: cover;
+}
+.text1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.24px;
+  display: inline-block;
+  min-width: 73px;
+}
+.socialLogin1 {
+  flex: 0.5663;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 125px;
+}
+.imageIcon2 {
+  width: 40px;
+  height: 40.5px;
+  position: relative;
+  object-fit: cover;
+}
+.text2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.24px;
+}
+.socialLogin2 {
+  flex: 0.9992;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-sm-1);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 125px;
+}
+.socialLoginContainer,
+.socialMediaLogin {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialLoginContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-9xs) 0 0;
+  gap: 14px 12px;
+  text-align: center;
+  color: var(--light-text);
+}
+.socialMediaLogin {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}

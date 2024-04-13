@@ -1,0 +1,172 @@
+.host {
+  color: var(--accent);
+}
+.findAHostContainer {
+  position: relative;
+  line-height: 110%;
+  display: inline-block;
+  max-width: 100%;
+}
+.discoverTheBest {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 120%;
+  font-weight: 300;
+  font-family: inherit;
+}
+.findAHostForEveryJourneyParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.autocompletebasic {
+  border: 0;
+  background-color: transparent;
+  height: 64px;
+  flex: 1;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  min-width: 356px;
+  max-width: 100%;
+}
+.container,
+.groupedChild,
+.wrapper {
+  height: 64px;
+  flex: 1;
+  min-width: 130px;
+}
+.groupedChild {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+}
+.grouped {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 438px;
+  max-width: 100%;
+}
+.searchButton {
+  height: 64px;
+  width: 142px;
+}
+.form {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.02);
+  border: 0.7px solid var(--light-grey-border);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-2xs);
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.errorHandler,
+.heroContainer,
+.logManager {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.logManager {
+  width: 100%;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 1280px;
+}
+.errorHandler,
+.heroContainer {
+  align-self: stretch;
+  max-width: 100%;
+}
+.errorHandler {
+  align-items: center;
+  padding: var(--padding-31xl) var(--padding-61xl) var(--padding-11xl);
+  box-sizing: border-box;
+  background-image: url(/public/error-handler@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.heroContainer {
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-21xl-4);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .autocompletebasic,
+  .grouped {
+    align-self: stretch;
+    width: auto;
+  }
+  .form {
+    flex-wrap: wrap;
+  }
+  .logManager {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .findAHostContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 36px;
+  }
+  .autocompletebasic {
+    min-width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .container,
+  .grouped,
+  .groupedChild,
+  .wrapper {
+    min-width: 100%;
+  }
+  .grouped {
+    flex-wrap: wrap;
+    flex: unset;
+    align-self: stretch;
+  }
+  .searchButton {
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+    min-width: 142;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .errorHandler {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .findAHostContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 27px;
+  }
+  .discoverTheBest {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+}

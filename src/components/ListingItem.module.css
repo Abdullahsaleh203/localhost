@@ -1,0 +1,208 @@
+.listingImageIcon {
+  align-self: stretch;
+  height: 300px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.superhostIcon {
+  height: 10px;
+  width: 6.7px;
+  position: relative;
+}
+.superhost {
+  height: 8px;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.heartIcon,
+.superhostTag {
+  z-index: 1;
+  position: absolute;
+}
+.superhostTag {
+  margin: 0 !important;
+  top: 10px;
+  left: 10px;
+  border-radius: var(--br-smi);
+  background-color: var(--white);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-6xs);
+  gap: var(--gap-11xs);
+}
+.heartIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  left: 0;
+  top: 0;
+  transform: scale(1.533);
+}
+.wrapperHeartIcon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 0 !important;
+  top: 10px;
+  right: 27px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listingSubtitle,
+.listingTitle {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.listingTitle {
+  line-height: 16px;
+  font-weight: 600;
+}
+.listingSubtitle {
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  color: var(--light-text);
+}
+.listingCont {
+  width: 231px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.rating {
+  height: 10px;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  min-width: 22px;
+}
+.starIcon {
+  height: 13px;
+  width: 13px;
+  position: relative;
+  min-height: 13px;
+}
+.listingInfo,
+.ratingCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ratingCont {
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-sm);
+}
+.listingInfo {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.night,
+.price {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.price {
+  height: 13px;
+  font-weight: 600;
+  min-width: 45px;
+  white-space: nowrap;
+}
+.night {
+  height: 10px;
+  font-size: var(--font-size-sm);
+  color: var(--light-text);
+  min-width: 37px;
+}
+.pricePerNight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-56xl) 0 0;
+  gap: var(--gap-11xs);
+}
+.trendIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  object-fit: cover;
+  min-height: 18px;
+}
+.priceChart {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  min-width: 70px;
+}
+.bestTime,
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bestTime {
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-sm);
+  color: var(--accent);
+}
+.bottomContainer {
+  align-self: stretch;
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lgi);
+}
+.itemDetails,
+.listingItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.itemDetails {
+  align-self: stretch;
+  padding: var(--padding-base);
+  gap: var(--gap-sm);
+  font-size: var(--font-size-base);
+  color: var(--dark);
+}
+.listingItem {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  border: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  min-width: 280px;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--accent);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 450px) {
+  .bottomContainer,
+  .listingInfo {
+    flex-wrap: wrap;
+  }
+}

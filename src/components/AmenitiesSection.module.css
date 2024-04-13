@@ -1,0 +1,92 @@
+.mdilakeIcon {
+  height: 21px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lakeside {
+  position: relative;
+  display: inline-block;
+  min-width: 64px;
+}
+.mdilakeParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.tablertoolsKitchen2Icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.kitchen {
+  flex: 1;
+  position: relative;
+}
+.phfireextinguisher {
+  width: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.materialSymbolsnestCamIqOIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.securityCamerasOn {
+  position: relative;
+}
+.materialSymbolsnestCamIqOParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.ionwifiIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.wifi {
+  position: relative;
+  display: inline-block;
+  min-width: 27px;
+}
+.amenitiessection1,
+.securityCameras {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.amenitiessection1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xl-3) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 195px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}

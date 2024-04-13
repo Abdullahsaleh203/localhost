@@ -1,0 +1,129 @@
+.homes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px 18.7px;
+  max-width: 1280px;
+  min-height: 1692px;
+}
+.showMoreButton {
+  width: 147px;
+  height: 48px;
+}
+.staysSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-61xl);
+  gap: var(--gap-3xl);
+}
+.contactUs,
+.localhostIncAll,
+.privacyPolicy,
+.termsConditions {
+  position: relative;
+  line-height: 17px;
+  font-weight: 300;
+}
+.contactUs,
+.privacyPolicy,
+.termsConditions {
+  display: inline-block;
+  min-width: 85px;
+}
+.contactUs,
+.termsConditions {
+  min-width: 120px;
+}
+.contactUs {
+  min-width: 67px;
+}
+.dataCombiner,
+.dataDispenser,
+.dataMerger {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.dataMerger {
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.dataCombiner,
+.dataDispenser {
+  max-width: 1280px;
+}
+.dataCombiner {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.dataDispenser {
+  width: 100%;
+  justify-content: center;
+}
+.band,
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.band {
+  align-self: stretch;
+  border-top: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  padding: var(--padding-xs) var(--padding-61xl);
+  max-width: 100%;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .homes {
+    max-width: 100%;
+  }
+  .staysSection {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dataCombiner,
+  .dataDispenser {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .staysSection {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .dataCombiner {
+    flex-wrap: wrap;
+  }
+  .band {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dataMerger {
+    flex-wrap: wrap;
+  }
+}

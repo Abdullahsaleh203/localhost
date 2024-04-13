@@ -1,0 +1,93 @@
+.staysNearby,
+.torontoOntario {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 120%;
+  font-family: inherit;
+}
+.staysNearby {
+  font-weight: 400;
+  display: inline-block;
+  min-width: 127px;
+}
+.torontoOntario {
+  font-weight: 600;
+}
+.differenceFunction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.bentoMenu1Icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.ancestryNetwork {
+  border-radius: var(--br-7xs);
+  background-color: var(--accent);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.mapIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.ancestryNetwork1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.layoutSelection,
+.searchSectionHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.layoutSelection {
+  width: 84px;
+  border-radius: var(--br-4xs);
+  background-color: var(--white);
+  border: 0.7px solid var(--light-grey-border);
+  justify-content: flex-start;
+  padding: var(--padding-8xs);
+}
+.searchSectionHeader {
+  width: 100%;
+  justify-content: space-between;
+  padding: var(--padding-sm) 0 0;
+  max-width: 1280px;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .searchSectionHeader {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .searchSectionHeader {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .staysNearby,
+  .torontoOntario {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+}
